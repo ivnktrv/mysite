@@ -1,0 +1,128 @@
+body {  
+    background-color: white;
+    font-family: "Roboto Mono", monospace;
+    font-size: 25px;
+    margin: 40px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: 1s;
+}
+
+a:hover {
+    font-size: 28px;
+}
+
+#avatar {
+    max-width: 400px;
+    border-radius: 30px;
+}
+
+#avatar:hover {
+    animation: avatar-ani 3s infinite alternate;
+}
+
+@keyframes avatar-ani {
+    25% {
+        border-radius: 200px 30px 30px 30px;
+    }
+    50% {
+        border-radius: 30px 200px 30px 30px;
+    }
+    75% {
+        border-radius: 30px 30px 200px 30px;
+    }
+    100% {
+        border-radius: 30px 30px 30px 200px;
+    }
+}
+
+.avatar-container {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+    .avatar-container {
+      display: inline;
+    }
+}
+
+.avatar-container-text {
+    margin: 40px;
+}
+
+#ivnktrv-title {
+    font-family: "Inconsolata", monospace;
+    font-weight: 700;
+    font-size: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    #ivnktrv-title {
+      font-size: 80px;
+    }
+}
+
+.myprograms-container-title {
+    background-color: aquamarine;
+    font-size: 25px;
+    padding: 25px;
+    border-radius: 30px;
+    transition: 0.3s;
+    max-width: 80%;
+}
+
+.myprograms-container-title:hover {
+    background-color: #bbfff7d0;
+}
+
+
+
+.myprograms-container-main {
+    background-color: #e5e5e5d0;
+    padding: 25px;
+    border-radius: 30px;
+    transition: 1s;
+    max-width: 70%;
+}
+
+.myprograms-container-main:hover {
+    background-color: #ccccccd0;
+    transform: scale(1.05);
+    animation: ani 1s infinite ease-in-out alternate;
+}
+
+@media screen and (max-width: 768px) {
+    .myprograms-container-main {
+      font-size: 17px;
+    }
+}
+
+@keyframes ani {
+    0% {
+        border-radius: 100px 10px 100px 10px;
+    }
+    100% {
+        border-radius: 10px 100px 10px 100px;
+    }
+
+
+}
+
+
+.socmedia-container {
+    width: 60px;
+    display: inline;
+    padding: 10px;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.socmedia-container:hover {
+    transform: scale(1.3);
+}
