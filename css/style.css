@@ -138,6 +138,25 @@ a:hover {
 
 }
 
+.guids-container-title {
+    background-color: #ffbbecd0;
+    font-size: 25px;
+    padding: 25px;
+    border-radius: 30px;
+    transition: 0.3s;
+    max-width: 80%;
+}
+
+.guids-container-title:hover {
+    background-color: #fdd3f1d0;
+}
+
+@media screen and (max-width: 800px) {
+    .guids-container-title {
+      font-size: 17px;
+      max-width: 70%;
+    }
+}
 
 .socmedia-container {
     width: 60px;
@@ -163,5 +182,37 @@ a:hover {
 @media screen and (max-width: 768px) {
     .temp {
       font-size: 15px;
+    }
+}
+
+.goto-main-container {
+    background-color: #c0ffe4d0;
+    font-size: 25px;
+    padding: 25px;
+    border-radius: 30px;
+    transition: 0.3s;
+    max-width: 60%;
+}
+
+.goto-main-container:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+.text-container {
+    background-color: #f8ffbbd0;
+    font-size: 25px;
+    padding: 25px;
+    border-radius: 30px;
+    transition: 0.3s;
+    max-width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+    .text-container {
+      font-size: 19px;
     }
 }
