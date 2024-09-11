@@ -158,6 +158,26 @@ a:hover {
     }
 }
 
+.blenderprojects-container-title {
+    background-color: #e0bbffd0;
+    font-size: 25px;
+    padding: 25px;
+    border-radius: 30px;
+    transition: 0.3s;
+    max-width: 80%;
+}
+
+.blenderprojects-container-title:hover {
+    background-color: #edd8fed0;
+}
+
+@media screen and (max-width: 800px) {
+    .blenderprojects-container-title {
+      font-size: 17px;
+      max-width: 70%;
+    }
+}
+
 .socmedia-container {
     width: 60px;
     display: inline;
@@ -215,4 +235,41 @@ a:hover {
     .text-container {
       font-size: 19px;
     }
+}
+
+
+
+
+
+
+.img-blender-container {
+    border-radius: 40px;
+    margin: auto;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    max-width: 90%;
+    padding: 16px;
+    transition: 0.3s;
+}
+
+.img-blender-container:hover {
+    transform: scale(1.1);
+}
+
+.video-audvis-container {
+    border-radius: 40px;
+    margin: auto;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    width: 550px;
+    max-width: 90%;
+    padding: 16px;
+    transition: 0.3s;
+}
+
+.video-audvis-container:hover {
+    transform: scale(1.1);
 }
