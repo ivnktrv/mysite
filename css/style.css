@@ -113,6 +113,7 @@ a:hover {
     border-radius: 30px;
     transition: 1s;
     max-width: 70%;
+    display: flexbox;
 }
 
 .myprograms-container-main:hover {
@@ -225,10 +226,19 @@ a:hover {
 .text-container {
     background-color: #f8ffbbd0;
     font-size: 25px;
-    padding: 25px;
+    padding: 30px;
     border-radius: 30px;
     transition: 0.3s;
     max-width: 80%;
+}
+
+.text-container-1 {
+    background-color: #bbffd2d0;
+    font-size: inherit;
+    padding: inherit;
+    border-radius: inherit;
+    transition: inherit;
+    max-width: inherit;
 }
 
 @media screen and (max-width: 768px) {
