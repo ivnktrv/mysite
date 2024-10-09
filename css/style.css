@@ -173,6 +173,26 @@ a:hover {
     }
 }
 
+.mymusic-container-title {
+    background-color: rgb(156, 149, 255);
+    font-size: 25px;
+    padding: 25px;
+    border-radius: 30px;
+    transition: 0.3s;
+    max-width: 80%;
+}
+
+.mymusic-container-title:hover {
+    background-color: #c7bbffd0;
+}
+
+@media screen and (max-width: 800px) {
+    .mymusic-container-title {
+      font-size: 17px;
+      max-width: 70%;
+    }
+}
+
 .socmedia-container {
     width: 60px;
     display: inline;
@@ -276,4 +296,38 @@ a:hover {
 
 .video-audvis-container:hover {
     transform: scale(1.1);
+}
+
+
+.music-text-container-1 {
+    background-color: #ffbbbbd0;
+    font-size: 25px;
+    padding: 30px;
+    border-radius: 30px;
+    transition: 0.3s;
+    max-width: 80%;
+}
+.music-text-container-2 {
+    background-color: #fdffbbd0;
+    font-size: 25px;
+    padding: 30px;
+    border-radius: 30px;
+    transition: 0.3s;
+    max-width: 80%;
+}
+.music-text-container-3 {
+    background-color: #bdbbffd0;
+    font-size: 25px;
+    padding: 30px;
+    border-radius: 30px;
+    transition: 0.3s;
+    max-width: 80%;
+}
+.music-text-container-4 {
+    background-color: #ffbbf6d0;
+    font-size: 25px;
+    padding: 30px;
+    border-radius: 30px;
+    transition: 0.3s;
+    max-width: 80%;
 }
