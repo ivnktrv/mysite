@@ -25,11 +25,10 @@ a:hover {
 #avatar {
     max-width: 400px;
     border-radius: 30px;
-}
-
-#avatar:hover {
     animation: avatar-ani 3s infinite alternate;
 }
+
+
 
 @media screen and (max-width: 1000px) {
     #avatar {
@@ -44,18 +43,13 @@ a:hover {
 }
 
 @keyframes avatar-ani {
-    25% {
-        border-radius: 200px 30px 30px 30px;
-    }
     50% {
-        border-radius: 30px 200px 30px 30px;
-    }
-    75% {
-        border-radius: 30px 30px 200px 30px;
+        border-radius: 40% 30px 40% 30px;
     }
     100% {
-        border-radius: 30px 30px 30px 200px;
+        border-radius: 30px 40% 30px 40%;
     }
+
 }
 
 .avatar-container {
