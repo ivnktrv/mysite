@@ -342,3 +342,27 @@ audio {
     transition: 0.3s;
     max-width: 80%;
 }
+.music-text-container-5 {
+    background-color: #e8bbffd0;
+    font-size: 25px;
+    padding: 30px;
+    border-radius: 30px;
+    transition: 0.3s;
+    max-width: 80%;
+}
+.music-text-container-6 {
+    background-color: #bbffecd0;
+    font-size: 25px;
+    padding: 30px;
+    border-radius: 30px;
+    transition: 0.3s;
+    max-width: 80%;
+}
+.music-text-container-7 {
+    background-color: #fff7bbd0;
+    font-size: 25px;
+    padding: 30px;
+    border-radius: 30px;
+    transition: 0.3s;
+    max-width: 80%;
+}
