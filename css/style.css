@@ -25,10 +25,9 @@ a:hover {
 #avatar {
     max-width: 400px;
     border-radius: 30px;
-    animation: avatar-ani 3s infinite alternate;
+    animation: avatar-ani 1s forwards;
+    animation-delay: 100ms;
 }
-
-
 
 @media screen and (max-width: 1000px) {
     #avatar {
@@ -43,13 +42,8 @@ a:hover {
 }
 
 @keyframes avatar-ani {
-    50% {
-        border-radius: 40% 30px 40% 30px;
-    }
-    100% {
-        border-radius: 30px 40% 30px 40%;
-    }
-
+    0% {border-radius: 30px 30px 30px 30px;}
+    100% {border-radius: 40% 30px 40% 30px;}
 }
 
 .avatar-container {
@@ -88,6 +82,14 @@ a:hover {
     border-radius: 30px;
     transition: 0.3s;
     max-width: 80%;
+    transform: translateX(-20%);
+    animation: aniMyProgramsTitle 1s forwards;
+    animation-delay: 100ms;
+}
+
+@keyframes aniMyProgramsTitle {
+    0% {transform: translateX(-20%);}
+    100% {transform: translateX(0%);}
 }
 
 .myprograms-container-title:hover {
@@ -129,8 +131,6 @@ a:hover {
     100% {
         border-radius: 10px 100px 10px 100px;
     }
-
-
 }
 
 .guids-container-title {
@@ -140,6 +140,14 @@ a:hover {
     border-radius: 30px;
     transition: 0.3s;
     max-width: 80%;
+    transform: translateX(20%);
+    animation: aniGuidsTitle 1s forwards;
+    animation-delay: 100ms;
+}
+
+@keyframes aniGuidsTitle {
+    0% {transform: translateX(20%);}
+    100% {transform: translateX(0%);}
 }
 
 .guids-container-title:hover {
@@ -160,6 +168,14 @@ a:hover {
     border-radius: 30px;
     transition: 0.3s;
     max-width: 80%;
+    transform: translateX(-20%);
+    animation: aniBlenderProjTitle 1s forwards;
+    animation-delay: 100ms;
+}
+
+@keyframes aniBlenderProjTitle {
+    0% {transform: translateX(-20%);}
+    100% {transform: translateX(0%);}
 }
 
 .blenderprojects-container-title:hover {
@@ -180,6 +196,14 @@ a:hover {
     border-radius: 30px;
     transition: 0.3s;
     max-width: 80%;
+    animation: aniMyMusicTitle 1s forwards;
+    animation-delay: 100ms;
+    transform: translateX(20%);
+}
+
+@keyframes aniMyMusicTitle {
+    0% {transform: translateX(20%);}
+    100% {transform: translateX(0%);}
 }
 
 .mymusic-container-title:hover {
