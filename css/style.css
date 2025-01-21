@@ -218,25 +218,21 @@ a:hover {
 }
 
 .socmedia-container {
-    width: 60px;
     display: inline;
+    width: 60px;
+
+}
+
+#vk {
+    background-color: aqua;
+    width: 300px;
+    height: 60px;
     padding: 10px;
-    margin: 5px;
-    transition: 0.3s;
+    margin: 30px;
+    border-radius: 20px;
+    display: flexbox;
 }
 
-.socmedia-container:hover {
-    transform: scale(1.3);
-}
-
-@media screen and (max-width: 768px) {
-    .socmedia-container {
-      width: 30px;
-      padding: 3px;
-      margin: 0px;
-      display: inline-box;
-    }
-}
 
 @media screen and (max-width: 768px) {
     .temp {
